@@ -1,56 +1,42 @@
+# GenBio 2026 Organizers
 - num_row: 1
   organizers:
-    - name: Minkai Xu
+    - name: Divya Nori
       affiliation: Stanford
-      photo: minkai.jpg
-      url: https://minkaixu.com/
-    - name: Zhenqiao Song
+      photo: divya.jpg
+      url: https://divnori.github.io/
+    - name: Ramith Hettiarachchi
       affiliation: CMU
-      photo: zhenqiao_song.jpg
-      url: https://jocelynsong.github.io/
-    - name: Tingyang Yu
-      affiliation: EPFL
-      photo: tingyang.jpg
-      url: https://yistyu.github.io/
-    - name: Wenxian Shi
-      affiliation: MIT
-      photo: wenxian.jpg
-      url: https://scholar.google.com/citations?user=Q4R4KhgAAAAJ&hl=en&oi=ao
+      photo: ramith.jpg
+      url: https://ramith.fyi
+    - name: Seonghwan Seo
+      affiliation: KAIST
+      photo: seonghwan.png
+      url: https://seonghwanseo.github.io/
 - num_row: 2
   organizers:
-    - name: Seul Lee
-      affiliation: KAIST
-      photo: seul.jpg
-      url: https://seullee05.github.io/
-    - name: Maria Brbic
-      title: Prof.
-      affiliation: EPFL
-      photo: maria_brbic.jpeg
-      url: https://people.epfl.ch/maria.brbic
     - name: Aditi S. Krishnapriyan
       title: Prof.
       affiliation: UC Berkeley
       photo: aditi.png
       url: https://a1k12.github.io/
-- num_row: 2
-  organizers:
+    - name: Christian Dallago
+      title: Prof.
+      affiliation: Duke University / NVIDIA
+      photo: christian.png
+      url: https://christian.dallago.us/
     - name: Lei Li
       title: Prof.
       affiliation: CMU
       photo: leili.jpg
       url: https://lileicc.github.io/
-    - name: Stefano Ermon
+    - name: Maruan Al-Shedivat
+      title: Dr.
+      affiliation: Genesis Therapeutics
+      photo: maruan.jpg
+      url: https://maruan.alshedivat.com/
+    - name: Wengong Jin
       title: Prof.
-      affiliation: Stanford
-      photo: ermon.jpeg
-      url: https://cs.stanford.edu/~ermon/
-    # - name: Jure Leskovec
-    #   title: Professor
-    #   affiliation: Stanford
-    #   photo: jure.jpeg
-    #   url: https://cs.stanford.edu/people/jure/
-    - name: Regina Barzilay
-      title: Prof.
-      affiliation: MIT
-      photo: regina.jpg
-      url: https://www.regina.csail.mit.edu/
+      affiliation: Northeastern University
+      photo: wengong.jpg
+      url: https://wengong-jin.github.io/
