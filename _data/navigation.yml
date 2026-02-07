@@ -1,0 +1,11 @@
+- title: Overview
+  url: index.html#overview
+- title: Schedule
+  url: https://icml.cc/virtual/2025/workshop/39968
+- title: Speakers
+  url: index.html#speakers
+- title: Organizers
+  # url: "/index.html#organizers" | relative_url
+  url: index.html#organizers
+- title: Accepted papers
+  url: https://openreview.net/group?id=ICML.cc/2025/Workshop/GenBio
