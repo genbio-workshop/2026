@@ -7,7 +7,7 @@
 # <h3 class="blackpar_title">(Models, Training and Inference)</h3>
 layout: home
 ---
-<div style="display: flex; align-items: center; justify-content: center; background: url('images/header.jpg') no-repeat; background-size: cover; user-select: none; height: 600px; padding: 0;">
+<div style="display: flex; align-items: center; justify-content: center; user-select: none; height: 220px; padding: 0;">
     <h1 class="blackpar_title" style="text-align: center; font-weight: bold; line-height: 1.2; text-shadow: 0px 0px 5px black;">The 3<sup>rd</sup> Workshop on Generative AI and Biology</h1>
 </div>
 
@@ -60,52 +60,37 @@ critical insights into the future of generative-AI-driven biology.
 We look forward to your participation in this exciting discourse on the future of biology and AI.
 </p>
 
-<!-- Schedule -->
-<h2 class="blackpar_title" id="schedule">Schedule (UTC-7)</h2>
+<!-- Schedule - TBD for 2026 -->
+{% comment %}
+<h2 class="blackpar_title" id="schedule">Schedule (UTC+9)</h2>
 <p>
 {% include schedule.html %}
 </p>
+{% endcomment %}
 
 
-<h2 class="blackpar_title" id="accepted_paper">Accepted Papers</h2>
+<!-- Accepted Papers - TBD after submissions close -->
+<!-- <h2 class="blackpar_title" id="accepted_paper">Accepted Papers</h2>
 <p>
-Accepted papers are released on our <a href="https://openreview.net/group?id=ICML.cc/2025/Workshop/GenBio">OpenReview portal</a>.
+Accepted papers are released on our <a href="https://openreview.net/group?id=ICML.cc/2026/Workshop/GenBio">OpenReview portal</a>.
 </p>
 
 <h2 class="blackpar_title" id="best_paper_awards">Best Paper Awards</h2>
 <p>
-We are pleased to announce the winners of the Best Paper Awards:  
+We are pleased to announce the winners of the Best Paper Awards:
 </p>
-<p>
-<a href="https://openreview.net/forum?id=KffXkipDH3"><strong style="color:rgb(16, 103, 189);">A Genomic Language Model for Zero-Shot Prediction of Promoter Indel Effects</strong></a>
-<br>
-Courtney A. Shearer, Felix Teufel, Rose Orenbuch, Christian J. Steinmetz, Daniel Ritter, Erik Xie, Artem Gazizov, Aviv Spinner, Jonathan Frazer, Mafalda Dias, Pascal Notin, Debora Susan Marks</p>
-
-<p><a href="https://openreview.net/forum?id=FblzZHPVaD"><strong style="color:rgb(16, 103, 189);">BindEnergyCraft: Casting Protein Structure Predictors as Energy-Based Models for Binder Design</strong></a>
-<br>
-Divya Nori, Anisha Parsan, Caroline Uhler, Wengong Jin</p>
-
-<p>
-<a href="https://openreview.net/forum?id=wJNtibXQYP"><strong style="color:rgb(16, 103, 189);">FORT: Forward-Only Regression Training of Normalizing Flows</strong></a>
-<br>
-Danyal Rehman, Oscar Davis, Jiarui Lu, Jian Tang, Michael M. Bronstein, Yoshua Bengio, Alexander Tong, Joey Bose
-</p>
+<p>TBD</p> -->
 
 
-<h2 class="blackpar_title" id="deadlines">Important information</h2>
+<h2 class="blackpar_title" id="deadlines">Important Dates</h2>
 <p>
 All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have an OpenReview profile when submitting.
 <p>
 <ul>
-    <li><del>Submission Deadline: 25th May, 2025</del></li>
-    <!-- <li>Review Bidding Period: 20th-22nd May, 2025</li> -->
-    <li><del>Reviewer deadline: 6th June, 2025</del></li>
-    <li><del>AC decision deadline: 8th June, 2025</del></li>
-    <li><del>Author Notification: 9th June, 2025</del></li>
-    <li>Camera Ready Deadline: 6th July, 2025</li>
+    <li>Submission Deadline: TBD</li>
+    <li>Author Notification: TBD</li>
+    <li>Camera Ready Deadline: TBD</li>
     <li>Workshop Date: <b>July 10-11, 2026</b></li>
-    <!-- <li><del>Camera-Ready Submission: November 22, 2023</del></li> -->
-    <!-- <li>Workshop Date: <b>Saturday, December 16, 2023</b> (in-person)</li> -->
 </ul>
 </p>
 
@@ -134,26 +119,15 @@ Please register via NeurIPS for a virtual pass for access.
 </p> -->
 
 
-<!-- Poster instructions -->
-<h2 class="blackpar_title" id="instructions">Author Instructions</h2>
-
-<!-- <p>
-Posters should be 24W by 36H (vertical) and printed on lightweight paper,
-as they will be affixed to the wall by tape.
-Instructions regarding poster printing can be found
-<a href="https://neurips.cc/FAQ/PosterInformation">here</a>.
-</p> -->
-
+<!-- Author Instructions - will be updated when submissions open -->
+<!-- <h2 class="blackpar_title" id="instructions">Author Instructions</h2>
 <p>
-Camera ready manuscripts are due by July 6th, 2025.
-<!-- on -->
-<!-- <a href="https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/GenBio">OpenReview</a> -->
-Please update your submissions to (1) include author names and affiliations, and (2) incorporate any desired changes based on your reviews. The camera-ready version may include up to 5 pages of content for short papers and up to 9 pages for long papers, excluding references and appendices. 
+Camera ready manuscripts are due by TBD.
+Please update your submissions to (1) include author names and affiliations, and (2) incorporate any desired changes based on your reviews. The camera-ready version may include up to 5 pages of content for short papers and up to 9 pages for long papers, excluding references and appendices.
 <p class="red-text">
 The camera-ready version must adhere to our <a href="https://www.overleaf.com/read/trqkdswkvppd#8cdf17">LaTeX template</a>.
 </p>
-<!-- Your camera-ready should follow the same Neurips style guide, and it may contain up to 5 pages of content (excluding references and appendices). -->
-</p>
+</p> -->
 
 
 <!-- Call for Papers
@@ -266,75 +240,30 @@ Accepted papers will be presented as posters during the poster sessions. Selecte
 </p> -->
 
 <!-- # Confirmed Speakers & Panelists -->
-<h2 class="blackpar_title" id="speakers">Speakers & Panelists</h2> 
+<h2 class="blackpar_title" id="speakers">Speakers & Panelists</h2>
 <p>
-{% include speakers.html %}
+TBD
 </p>
-<!-- <p>
-More invited speakers TBA.
-</p> -->
+{% comment %}{% include speakers.html %}{% endcomment %}
 
 
-<!-- <h2 class="blackpar_title" id="speakers">Panelists</h2>
+{% comment %}
+<h2 class="blackpar_title" id="speakers">Panelists</h2>
 <p>
 {% include panelists.html %}
-</p> -->
+</p>
+{% endcomment %}
 
 <!-- Organizers -->
 <h2 class="blackpar_title" id="organizers">Organizers</h2>
-<p>
-{% include organizers.html %}
-</p>
+<div>{% include organizers.html %}</div>
 
-<!-- Moderators -->
-<!-- <h2 class="blackpar_title" id="moderators">Moderators</h2>
-<p>
-{% include moderators.html %}
-</p> -->
-
+<!-- Sponsors - uncomment when ready
 <h2 class="blackpar_title" id="sponsors">Sponsors</h2>
 <p>
-{% include sponsors.html %}
-</p>
-
-<br><br>
-
-<!-- Technical Committee -->
-<!--<h2 class="blackpar_title" id="technical_committee">Technical Committee</h2>
-<p>
-{% include technical_committee.html %}
+{% raw %}{% include sponsors.html %}{% endraw %}
 </p>
 -->
-<br><br>
-
-<!--
-<h2 class="blackpar_title">Sponsor</h2>
-<div class="row">
-    <div class="col">
-        <center>
-            <img src="">
-        </center>
-    </div>
-    <div class="col">
-        <center>
-            <img src="" width="250px">
-        </center>
-    </div>
-</div>-->
-
-<!-- <h2 class="blackpar_title">Gold Sponsor</h2>
-<div class="row">
-    <div class="col">
-        <center>
-            <img src="" width="250px">
-        </center>
-    </div>
-    <div class="col">
-        <center>
-            <img src="" width="250px">
-        </center>
-    </div>
-</div> -->
 
 <!--ends inverted colors-->
 <!-- Default Statcounter code for genbio

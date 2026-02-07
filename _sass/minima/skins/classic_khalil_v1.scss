@@ -134,6 +134,17 @@ p{
   clear: both;
 }
 
+.organizers_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.organizers_row .column_perso {
+  float: none;
+  width: 20%;
+}
+
 .img_card_perso{
 	width:100%; 
 	border-radius:50%;
@@ -146,6 +157,10 @@ p{
     display: block;
     margin-bottom: 20px;
 	margin-left: 12%;
+  }
+
+  .organizers_row .column_perso {
+    width: 75%;
   }
   
   .img_card_perso{
