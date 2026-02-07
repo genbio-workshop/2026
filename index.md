@@ -30,8 +30,7 @@ Stay tuned by following us on <a href="https://twitter.com/genbio_workshop">Twit
 
 
 <!--starts inverted colors-->
-<div class="inverted">
-
+<div class="inverted" markdown="1">
 <br><br>
 <h2 class="blackpar_title" id="overview">Overview</h2>
 <!--<p>
@@ -85,14 +84,13 @@ We are pleased to announce the winners of the Best Paper Awards:
 <h2 class="blackpar_title" id="deadlines">Important Dates</h2>
 <p>
 All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have an OpenReview profile when submitting.
-<p>
+</p>
 <ul>
     <li>Submission Deadline: TBD</li>
     <li>Author Notification: TBD</li>
     <li>Camera Ready Deadline: TBD</li>
     <li>Workshop Date: <b>July 10-11, 2026</b></li>
 </ul>
-</p>
 
 <style>
     .red-text {
@@ -265,6 +263,7 @@ TBD
 </p>
 -->
 
+</div>
 <!--ends inverted colors-->
 <!-- Default Statcounter code for genbio
 https://genbio-workshop.github.io/ -->

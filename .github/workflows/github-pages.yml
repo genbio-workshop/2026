@@ -14,17 +14,13 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7'  # Adjust this based on your Jekyll version if necessary
-
-    - name: Install dependencies
-      run: |
-        gem install jekyll bundler
-        bundle install
+        ruby-version: '3.2'
+        bundler-cache: true
 
     - name: Build the site with Jekyll
       run: |
@@ -35,4 +31,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
-
