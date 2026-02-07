@@ -8,7 +8,7 @@
 layout: home
 ---
 <div style="display: flex; align-items: center; justify-content: center; background: url('images/header.jpg') no-repeat; background-size: cover; user-select: none; height: 600px; padding: 0;">
-    <h1 class="blackpar_title" style="text-align: center; font-weight: bold; line-height: 1.2; text-shadow: 0px 0px 5px black;">The 2<sup>nd</sup> workshop on Generative AI and Biology</h1>
+    <h1 class="blackpar_title" style="text-align: center; font-weight: bold; line-height: 1.2; text-shadow: 0px 0px 5px black;">The 3<sup>rd</sup> Workshop on Generative AI and Biology</h1>
 </div>
 
 
@@ -103,7 +103,7 @@ All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have
     <li><del>AC decision deadline: 8th June, 2025</del></li>
     <li><del>Author Notification: 9th June, 2025</del></li>
     <li>Camera Ready Deadline: 6th July, 2025</li>
-    <li>Workshop Date: <b>Friday, July 18, 2025</b></li>
+    <li>Workshop Date: <b>July 10-11, 2026</b></li>
     <!-- <li><del>Camera-Ready Submission: November 22, 2023</del></li> -->
     <!-- <li>Workshop Date: <b>Saturday, December 16, 2023</b> (in-person)</li> -->
 </ul>
@@ -117,8 +117,8 @@ All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have
 </style>
 
 <p class="red-text">
-The workshop will be held on July 18 at
-<strong style="font-weight: 900;">Ex Hall A, East Building</strong>, Vancouver Convention Center, Vancouver, BC, Canada.
+The workshop will be held on July 10-11, 2026 at the
+<strong style="font-weight: 900;">COEX Convention & Exhibition Center</strong>, Seoul, South Korea.
 </p>
 
 <!-- <p>
