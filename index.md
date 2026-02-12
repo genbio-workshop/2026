@@ -8,7 +8,7 @@
 layout: home
 ---
 <div style="display: flex; align-items: center; justify-content: center; user-select: none; height: 220px; padding: 0;">
-    <h1 class="blackpar_title" style="text-align: center; font-weight: bold; line-height: 1.2; text-shadow: 0px 0px 5px black;">The 3<sup>rd</sup> Workshop on Generative AI and Biology</h1>
+    <h1 class="blackpar_title" style="text-align: center; font-weight: bold; line-height: 1.2; text-shadow: 0px 0px 5px black;">The 2026 workshop on Generative and Agentic AI for Biology</h1>
 </div>
 
 
