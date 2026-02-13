@@ -1,72 +1,39 @@
+# GenBio 2026 Speakers
+# Morning session: AI agents for biology
 - num_row: 1
   speakers:
-    - name: David Baker
+    - name: James Zou
       title: Prof.
-      affiliation: University of Washington
-      photo: david.jpg
-    # - name: Jennifer Listgarten
-    #   title: Prof.
-    #   affiliation: UC Berkeley
-    #   photo: jennifer.jpg
-    - name: James J. Collins
+      affiliation: Stanford University
+      photo: speakers/James-Zou.jpeg
+      url: https://www.james-zou.com/
+    - name: Joy Jiao
+      affiliation: OpenAI
+      photo: speakers/Joy_Jiao.jpeg
+      url: https://www.linkedin.com/in/yunxin-jiao
+    - name: Gianni De Fabritiis
       title: Prof.
-      affiliation: MIT
-      photo: james.jpg
-    - name: Martin Renqiang Min
-      title: Dr.
-      affiliation: NEC Labs
-      photo: martin_min.jpg
-    # - name: Evan Feinberg
-    #   title: Dr.
-    #   affiliation: CEO, Genesis Therapeutics
-    #   photo: evan.jpeg
+      affiliation: Lila Sciences
+      photo: speakers/Gianni_De_Fabritiis.jpeg
+      url: https://www.linkedin.com/in/gdefabritiis/
 
-
+# Afternoon session: generative AI in biology
 - num_row: 2
   speakers:
-    - name: Mengdi Wang
+    - name: Martin Steinegger
       title: Prof.
-      affiliation: Princeton
-      photo: mengdi.jpeg
-    - name: Marinka Zitnik
-      title: Prof.
-      affiliation: Harvard
-      photo: marinka.jpg
-    - name: Eric P. Xing
-      title: Prof.
-      affiliation: CMU & MBZUAI
-      photo: eric_xing.jpg
-
-- num_row: 3
-  speakers:
-  - name: Maruan Al-Shedivat
-    title: Dr.
-    affiliation: Genesis Therapeutics
-    photo: maruan.jpg
-  - name: David Li-Bland
-    title: Dr.
-    affiliation: Genesis Therapeutics
-    photo: david_li.jpeg
-  - name: Arash Vahdat
-    title: Dr.
-    affiliation: NVIDIA
-    photo: arash.jpg
-# - num_row: 3
-#   speakers:
-#     - name: Jian Tang
-#       title: Associate Professor
-#       affiliation: Mila
-#       photo: jian.jpg
-#     - name: Ellen Zhong
-#       title: Assistant Professor
-#       affiliation: Princeton
-#       photo: ellen.jpeg
-#     - name: Shuiwang Ji
-#       title: Professor
-#       affiliation: Texas A&M
-#       photo: shuiwang.jpeg
-#     - name: Patrick Conrad
-#       title: Dr.
-#       affiliation: Insitro
-#       photo: patrick.jpeg
-
+      affiliation: Seoul National University
+      photo: speakers/Martin_Steinegger.png
+      url: https://steineggerlab.com/
+    - name: Gabriele Corso
+      affiliation: Boltz
+      photo: speakers/gabriele_corso.jpeg
+      url: https://gcorso.github.io/
+    - name: Yunha Hwang
+      affiliation: MIT
+      photo: speakers/Yunha_Hwang.webp
+      url: https://www.hwanglab.mit.edu/
+    - name: Yusuf Roohani
+      affiliation: Arc Institute
+      photo: speakers/Yusuf_Roohani.jpeg
+      url: https://www.linkedin.com/in/yusuf-roohani-bb195231
