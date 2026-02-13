@@ -7,20 +7,20 @@
 # <h3 class="blackpar_title">(Models, Training and Inference)</h3>
 layout: home
 ---
-<div style="display: flex; align-items: center; justify-content: center; user-select: none; height: 220px; padding: 0;">
-    <h1 class="blackpar_title" style="text-align: center; font-weight: bold; line-height: 1.2; text-shadow: 0px 0px 5px black;">The 2026 workshop on Generative and Agentic AI for Biology</h1>
+<div style="display: flex; align-items: center; justify-content: center; user-select: none; height: 150px; padding: 0;">
+    <h1 class="blackpar_title" style="text-align: center; font-weight: bold; line-height: 1.2; text-shadow: 0px 0px 8px rgba(0,0,0,0.3);">The 2026 workshop on Generative and Agentic AI for Biology</h1>
 </div>
 
 
 
 <br>
 <p>
-Welcome to the GenBio Workshop! Join us as we explore the exciting intersection of artificial intelligence and biology.
-Discover how generative AI is revolutionizing protein research, RNA analysis, molecular design, drug discovery, and more.
-This workshop is designed to be interactive and practical,
-equipping you with the skills to utilize generative AI tools in your own biological research.
-Engage in stimulating discussions and collaborate with experts from diverse backgrounds.
-Together, let's unlock the potential of generative AI for biology.</p>
+Welcome to the 2026 workshop on Generative and Agentic AI for Biology!
+
+We are at a pivotal moment where AI is not only generating novel molecules and predicting biological structures, but also beginning to reason, plan, and act as autonomous agents in the scientific process. This workshop brings together leading researchers from machine learning, computational biology, and industry to explore both fronts — from the latest generative models for proteins, RNAs, and cells, to the emerging role of AI agents in experimental design and biological discovery.
+
+Join us for invited talks, a panel discussion, and conversations that span the full spectrum of AI-driven biology.
+</p>
 
 <p>
 Stay tuned by following us on <a href="https://twitter.com/genbio_workshop">Twitter</a>.
@@ -33,31 +33,27 @@ Stay tuned by following us on <a href="https://twitter.com/genbio_workshop">Twit
 <div class="inverted" markdown="1">
 <br><br>
 <h2 class="blackpar_title" id="overview">Overview</h2>
-<!--<p>
-The revolutionary crossroads between artificial intelligence (AI) and biology
-is one of the most exciting frontiers of our time.
-In this workshop, we will dive deeply into the implications
-of generative AI for biological discovery, drug discovery, and translational medicine.
-</p>-->
+
 <p>
-Over the past year, generative AI models have led to tremendous breakthroughs,
-from image and text generation, to protein folding and design.
-These recent successes illustrate the incredible potential of generative AI not
-only for digital applications, but also for basic science and healthcare.
-We are now able to predict protein structure from sequence alone; to
-characterize the function and interactions of biomolecules; to design such
-molecules never-before-seen in nature; and more.
-The impacts are profound: through generative AI, we can systematically
-understand and reprogram biology at an unprecedented level.
+The 2024 Nobel Prize in Chemistry, awarded for AI-based protein structure prediction and protein design, underscored the transformative impact of machine learning on the life sciences. Generative AI models, including large language models, diffusion models, and foundation models for biological sequences and cells, have demonstrated remarkable success in modeling and designing biomolecules and biological systems. However, a new paradigm is emerging. Beyond generating biological sequences or structures, AI systems are beginning to act as agents: formulating hypotheses, planning experiments, interacting with tools and databases, and iteratively refining scientific strategies. This workshop aims to explore the future of AI for biology at the intersection of these two paradigms. Rather than focusing solely on incremental advances in generative modeling, we seek to engage the community in a deeper discussion about the conceptual and practical foundations of AI-driven biological discovery. Key questions include:
 </p>
+
+* Will agentic AI subsume generative models, or are they complementary components of future scientific systems?
+* In what biological problems is agentic AI necessary?
+* What architectures are required for AI systems that reason across molecules, cells, tissues, and organisms?
+* How should we evaluate AI agents that participate in biological discovery?
+* What is the role of human scientists in an era of AI-driven hypothesis generation and experimentation?
+
 <p>
-The goals of this workshop are to bridge the gap between the machine learning and biological
-communities;
-to connect leading researchers from both industry and academia;
-and to gain
-critical insights into the future of generative-AI-driven biology.
-We look forward to your participation in this exciting discourse on the future of biology and AI.
+We aim to discuss these questions through invited talks, poster presentations, and panel discussions on the following topics:
 </p>
+
+* Generative models for biomolecule and therapeutic design.
+* Agent-based systems for hypothesis generation, experimental planning, and closed-loop wet-lab integration.
+* Foundation models and world models for multi-scale biology.
+* Benchmarks and evaluation frameworks for autonomous scientific systems.
+* Human-AI collaboration paradigms in biological research.
+* Safety, governance, and ethical considerations of autonomous biological AI systems.
 
 <!-- Schedule - TBD for 2026 -->
 {% comment %}
@@ -238,7 +234,7 @@ Accepted papers will be presented as posters during the poster sessions. Selecte
 </p> -->
 
 <!-- # Confirmed Speakers & Panelists -->
-<h2 class="blackpar_title" id="speakers">Speakers</h2>
+<h2 class="blackpar_title" id="speakers">Speakers & Panelists</h2>
 <div>{% include speakers.html %}</div>
 
 
