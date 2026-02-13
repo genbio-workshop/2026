@@ -23,7 +23,7 @@ Join us for invited talks, a panel discussion, and conversations that span the f
 </p>
 
 <p>
-Stay tuned by following us on <a href="https://twitter.com/genbio_workshop">Twitter</a>.
+Stay tuned by following us on <a href="https://twitter.com/genbio_workshop" target="_blank" rel="noopener">Twitter</a>.
 </p>
 
 <br>

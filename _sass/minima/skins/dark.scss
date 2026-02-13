@@ -141,14 +141,15 @@ $table-border-color:    $border-color-01 !default;
 
   .organizers_row .column_perso {
     width: 75%;
+    margin-left: 0;
   }
 
   .img_card_perso{
 	width: 75%;
 	border-radius:50%;
-		margin-left: 12%;
-
-	}
+	display: block;
+	margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 600px) {
