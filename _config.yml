@@ -3,8 +3,8 @@ author:
   name: GenBio ICML Workshop 2026
   email: genbioworkshop@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  GenBio focuses on solving fundamental problems in biology
-  through generative AI.
+  The 2026 workshop on Generative and Agentic AI for Biology
+  at ICML 2026, Seoul, South Korea.
 
 baseurl: "/2026"
 url: "https://genbio-workshop.github.io"
