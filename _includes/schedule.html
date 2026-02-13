@@ -1,138 +1,102 @@
-{% assign schedule = site.data.schedule %}
-{% assign size = schedule.size %}
-{% if size == False %}
+<style>
+  .schedule-container {
+    max-width: 860px;
+    margin: 0 auto;
+  }
 
-<!-- A preliminary day-of schedule -->
-<!-- can be found -->
-<!-- <a href="https://neurips.cc/virtual/2023/workshop/66505">here</a>. -->
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
 
-{% else %}
-    {% for event in schedule %}
-        {% if event.Abstract %}
-            <div class="modal fade" id="talk_{{ forloop.index }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <b>Title:</b> {{ event.Title }}
-                            <br>
-                            <b>Presenter:</b> {{ event.Presenter }}
-                            <br>
-                            {% if event.Is_paper == false %}
-                                <b>Bio</b><p class="par_panel_perso">{{ event.Bio }} </p>
-                            {% else %}
-                                <b>Authors</b><p class="par_panel_perso">{{ event.Authors }} </p>
-                            {% endif %}
-                            <b>Abstract</b><p class="par_panel_perso">{{ event.Abstract }} </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  .schedule-table thead tr {
+    background-color: #0d2a45;
+    color: #fff;
+    text-align: left;
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+  }
+
+  .schedule-table tbody tr {
+    background-color: #f8f9fa;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .schedule-table tbody tr:nth-of-type(even) {
+    background-color: #e9ecef;
+  }
+
+  .schedule-table tbody tr:last-of-type {
+    border-bottom: 2px solid #0d2a45;
+  }
+
+  .schedule-table tbody tr:hover {
+    background-color: #d1e7ff;
+  }
+
+  .session-merged {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e9ecef !important;
+  }
+
+  .session-badge {
+    font-size: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .session-badge.morning,
+  .session-badge.afternoon {
+    color: #333;
+  }
+</style>
+
+<div class="schedule-container">
+  <table class="schedule-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Session</th>
+        <th>Event</th>
+        <th>Presenter</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign morning_count = site.data.schedule | where: "Session", "morning" | size %}
+      {% assign afternoon_count = site.data.schedule | where: "Session", "afternoon" | size %}
+      {% assign session_shown = "" %}
+      {% for event in site.data.schedule %}
+      <tr>
+        <td>{{ event.Time }}</td>
+        {% if event.Session == "morning" and session_shown != "morning" %}
+          {% assign session_shown = "morning" %}
+          <td rowspan="{{ morning_count }}" class="session-merged"><span class="session-badge morning">Agents<br>for Bio</span></td>
+          <td>{{ event.Title }}</td>
+          <td>{{ event.Presenter }}</td>
+        {% elsif event.Session == "afternoon" and session_shown != "afternoon" %}
+          {% assign session_shown = "afternoon" %}
+          <td rowspan="{{ afternoon_count }}" class="session-merged"><span class="session-badge afternoon">GenAI<br>for Bio</span></td>
+          <td>{{ event.Title }}</td>
+          <td>{{ event.Presenter }}</td>
+        {% elsif event.Session %}
+          <td>{{ event.Title }}</td>
+          <td>{{ event.Presenter }}</td>
+        {% else %}
+          <td colspan="2"><strong>{{ event.Title }}</strong></td>
+          <td>{{ event.Presenter }}</td>
         {% endif %}
-    {% endfor %}
-    
-    <style>
-        .schedule-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .schedule-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0;
-            font-size: 0.9em;
-            font-family: sans-serif;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        
-        .schedule-table thead tr {
-            background-color: #2c3e50;
-            color: #ffffff;
-            text-align: left;
-        }
-        
-        .schedule-table th,
-        .schedule-table td {
-            padding: 10px 12px;
-            border: 1px solid #dddddd;
-        }
-        
-        .schedule-table th:first-child {
-            width: 20%;
-        }
-        
-        .schedule-table tbody tr {
-            border-bottom: 1px solid #dddddd;
-            background-color: #f8f9fa;
-            color: #333333;
-        }
-        
-        .schedule-table tbody tr:nth-of-type(even) {
-            background-color: #e9ecef;
-        }
-        
-        .schedule-table tbody tr:last-of-type {
-            border-bottom: 2px solid #2c3e50;
-        }
-        
-        .schedule-table tbody tr:hover {
-            background-color: #d1e7ff;
-        }
-        
-        .info-icon {
-            color: #2c3e50;
-            transition: color 0.3s;
-        }
-        
-        .info-icon:hover {
-            color: #1a6fc9;
-        }
-        
-        .title-cell {
-            width: 75%;
-        }
-        
-        .action-cell {
-            width: 5%;
-            text-align: center;
-        }
-    </style>
-    
-    <div class="schedule-container">
-        <table class="schedule-table">
-            <thead>
-                <tr>
-                    <th>Time</th>
-                    <th>Title</th>
-                    <th>Presenter</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for event in schedule %}
-                    <tr>
-                        <td>{{ event.Time }}</td>
-
-                        {% if event.Whole_line == true %}
-                            <td colspan='1'>{{ event.Title }}</td>
-                        {% else %}
-                            {% if event.Abstract %}
-                                <td class="title-cell">
-                                    {{ event.Title }}
-                                    <a href="" data-bs-toggle="modal" data-bs-target="#talk_{{ forloop.index }}">
-                                        <i class="bi bi-info-circle info-icon" style="font-size: 1.2rem; margin-left: 8px;"></i>
-                                    </a>
-                                </td>
-                            {% else %}
-                                <td>{{ event.Title }}</td>
-                            {% endif %}
-                            <td>{{ event.Presenter }}</td>
-                        {% endif %}
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
-{% endif %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
