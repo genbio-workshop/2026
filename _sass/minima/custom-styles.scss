@@ -1,2 +1,40 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Override inverted section text to true black
+.inverted {
+  color: #111;
+}
+
+// Reset Minima's global ul margin so Bootstrap's navbar-nav aligns correctly
+.navbar ul {
+  margin: 0;
+}
+
+// Navbar link styling
+.navbar-light .navbar-nav .nav-link {
+  color: #1a1a2e !important;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #444 !important;
+}
+
+// Navbar brand styling
+.navbar .navbar-brand {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #1a1a2e !important;
+  padding-right: 2rem;
+}
+
+// Bottom border on sticky header
+.navbar {
+  border-bottom: 2px solid #0d2a45;
+}
+
+// Offset anchor scroll position to account for sticky header
+html {
+  scroll-padding-top: 80px;
+}
