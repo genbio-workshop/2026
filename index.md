@@ -55,13 +55,8 @@ We aim to discuss these questions through invited talks, poster presentations, a
 * Human-AI collaboration paradigms in biological research.
 * Safety, governance, and ethical considerations of autonomous biological AI systems.
 
-<!-- Schedule - TBD for 2026 -->
-{% comment %}
 <h2 class="blackpar_title" id="schedule">Schedule (UTC+9)</h2>
-<p>
-{% include schedule.html %}
-</p>
-{% endcomment %}
+<div>{% include schedule.html %}</div>
 
 
 <!-- Accepted Papers - TBD after submissions close -->

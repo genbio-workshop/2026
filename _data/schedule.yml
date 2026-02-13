@@ -1,61 +1,52 @@
-- Title: Opening
-  Time: 8:30-8:45
-- Title: "Invited keynote talk: Generative AI for Antibiotic Discovery and Synthetic Biology"
-  Presenter: James J. Collins
-  Time: 8:45-9:25
-  Bio: Professor James J. Collins, a true pioneer in the fields of medical engineering and synthetic biology. Professor Collins holds the prestigious title of Termeer Professor of Medical Engineering and Science at MIT. He is also a Core Faculty Member of the Wyss Institute for Biologically Inspired Engineering at Harvard University, and an Institute Member at the Broad Institute of MIT and Harvard. Professor Collins is widely recognized for his groundbreaking work, which includes the development of foundational technologies in synthetic biology, such as the gene toggle switch. His innovative research spans various areas, including antimicrobial resistance, diagnostics, and novel therapeutic development, profoundly impacting our understanding and ability to engineer biological systems.
-  Is_paper: false
-  Abstract: "In this talk, we highlight how we are using generative AI for antibiotic discovery and synthetic biology. In the first part of the talk, we focus on the Antibiotics-AI Project, which is a multi-disciplinary, innovative research program that is leveraging MIT's strengths in artificial intelligence, bioengineering, and the life sciences to discover and design novel classes of antibiotics. The Antibiotics-AI Project is focused on developing, integrating and implementing deep learning models and chemogenomic screening approaches: (1) to predict novel antibiotics from expansive chemical libraries with diverse properties, (2) to design de novo novel antibiotics based on learned structural and functional properties of existing and newly discovered antibiotics, and (3) to identify, using explainable deep learning models, the chemical structures and molecular mechanisms underlying the newly discovered and/or designed antibiotics.Our platform has been designed so that it can be utilized and applied in a rapid fashion to emerging and re-emerging bacterial pathogens, including multidrug-resistant (MDR) bacteria and extensively drug-resistant (XDR) bacteria. In the second part of the talk, we focus on synthetic biology, which is an emerging field that is bringing together engineers, computer scientists and biologists to model, design and construct biological circuits out of proteins, genes and other bits of DNA, and to use these circuits to rewire and reprogram organisms.  These re-engineered organisms are going to change our lives in the coming years, leading to cheaper drugs, rapid diagnostic tests, and synthetic probiotics to treat infections and a range of complex diseases. We highlight recent efforts that use generative AI in the context of synthetic biology to create novel classes of diagnostics, therapeutics, and programmable molecular tools for the life sciences."
-- Title: "Spotlight 1:<br>&#8227; <i>MINT: Multimodal Integrated Knowledge Transfer to Large Language Models through Preference Optimization with Biomedical Application</i>s<br>Da Wu, Zhanliang Wang, Quan Minh Nguyen, Zhuoran Xu, Kai Wang<br>&#8227; <i>Connecting Gene Expression and Tissue Morphology with Conditional Generative Models</i><br>Frederieke Lohmann, Alberto Valdeolivas, Jelica Vasiljević<br>&#8227; <i>Rapid and Reproducible Multimodal Biological Foundation Model Development with AIDO.ModelGenerator</i><br>Caleb Ellington, Dian Li, Shuxian Zou, Elijah Cole, Ning Sun, Sohan Addagudi, Le Song, Eric P. Xing"
-  Time: 9:25-9:35
-- Title: "Poster and break"
-  Time: 9:35-10:00
-- Title: "Invited keynote talk: Design of new protein functions using deep learning"
-  Presenter: David Baker
-  Time: 10:00-11:00
-  Abstract: Proteins mediate the critical processes of life and beautifully solve the challenges faced during the evolution of modern organisms.  The focus of our lab is the design of a new generation of proteins that address current-day problems not faced during evolution. In contrast to traditional protein engineering efforts which modify naturally occurring proteins, we design new proteins from scratch to optimally solve these problems. We develop and use deep learning methods to design these new proteins with new functions, produce synthetic genes encoding the designs, and characterize them experimentally. In this talk, I will describe the design of proteins to address current challenges in health, technology, and sustainability.
-  Is_paper: false
-#  Whole_line: false
-  Bio: "David Baker is a Nobel laureate, professor of biochemistry, HHMI investigator, and director of the Institute for Protein Design at the University of Washington. His lab develops software for protein design and uses it to create molecules that address challenges in medicine, technology, and sustainability. Recent work includes the development of machine learning methods for generating functional proteins. David is also an adjunct professor of genome sciences, bioengineering, chemical engineering, computer science, and physics at the University of Washington. He has published more than 650 scientific papers, been awarded over 100 patents, and co-founded 21 biotechnology companies. More than 100 of his trainees have gone on to independent faculty positions. He is the recipient of numerous awards, including the 2024 Nobel Prize in Chemistry\"for computational protein design.\" He is an elected member of the National Academy of Sciences and was included on TIME's list of the 100 Most Influential People in health David received his PhD in biochemistry with Randy Schekman at the University of California, Berkeley, and conducted postdoctoral research in biophysics with David Agard at UCSF."
-- Title: "Invited keynote talk: Agentic Generative Biomedicine"
-  Time: 11:00-11:40
-  Presenter: Martin Renqiang Min
-  Abstract: Owing to the availability of large-scale multimodal biomedical data and advancement of AI technologies, generative biomedicine for simulating digital cells and patients becomes feasible, which will potentially disrupt drug discovery. In this talk, first I will introduce the concept of generative biomedicine. Then I will present a privacy-preserving framework that combines large language models with autonomous agents (generative models) to drive biomedical discovery. Finally, I will discuss some of our recent generative AI models for 3D molecule optimization, T-Cell Receptor design, and protein-protein complex sequence-structure co-design.
-  Bio: Martin Renqiang Min is currently the head of the Machine Learning Department, NEC Laboratories America. He received his MSc and PhD degrees in Computer Science from Machine Learning Group, Department of Computer Science, University of Toronto. He did a one-year postdoc at Yale University. His research interests include machine learning and biomedical informatics, focusing on representation learning, generative models, multimodal reasoning, generative biomedicine, and omics for personalized healthcare.
-  Is_paper: false
-- Title: "Spotlight 2:<br>&#8227; <i>BindEnergyCraft: Casting Protein Structure Predictors as Energy-Based Models for Binder Design</i><br>Divya Nori, Anisha Parsan, Caroline Uhler, Wengong Jin<br>&#8227; <i>ProxelGen: Generating Proteins as 3D Densities</i><br>Felix Faltings, Hannes Stark, Regina Barzilay, Tommi Jaakkola<br>&#8227; <i>ProVADA: Generation of Subcellular Protein Variants via Ensemble-Guided Test-Time Steering</i><br>Wenhui Sophia Lu, Xiaowei Zhang, L. Santiago Mille-Fragoso, Haoyu Dai, Xiaojing J Gao, Wing Hung Wong<br>&#8227; <i>A Genomic Language Model for Zero-Shot Prediction of Promoter Indel Effects</i><br>Courtney A. Shearer, Felix Teufel, Rose Orenbuch, Christian J. Steinmetz, Daniel Ritter, Erik Xie, Artem Gazizov, Aviv Spinner, Jonathan Frazer, Mafalda Dias, Pascal Notin, Debora Susan Marks<br>&#8227; <i>Retrieval Augmented Protein Language Models for Protein Structure Prediction</i><br>Pan Li, Xingyi Cheng, Le Song, Eric P. Xing<br>&#8227; <i>To Optimize, Not to Invent: RNAGenScape for mRNA Sequence Generation and Optimization Without de novo Design</i><br>Danqi Liao, Chen Liu, Xingzhi Sun, Die Tang, Haochen Wang, Scott Elliot Youlten, Antonio J. Giraldez, Smita Krishnaswamy"
-  Time: 11:40-12:00
-- Title: "Poster and lunch"
-  Time: 12:00-13:00
-- Title: "Invited keynote talk: From Genome to Theorem: Can AI Agents Do Science?"
-  Presenter: Mengdi Wang
-  Abstract: "Large Language Models (LLMs) are increasingly being explored as tools for scientific reasoning - not just in language tasks, but across disciplines such as math, biology, and genomics. In this talk, I'll discuss recent developments in AI for science, including genome language models, AI gene-editing co-scientist, and LLMs for math. I'll highlight both the capabilities and current limitations of LLMs, and discuss key gaps between AI and science such as the overoptimism in AI's capabilities and the lack of benchmark and rigorous evaluation. As we push toward AI systems that can assist with discovery, the question remains: can LLMs truly do science - or are we still in the early stages of bridging that divide?"
-  Bio: "Mengdi Wang is Co-Director of Princeton AI for Accelerated Invention, and Professor of the Department of Electrical and Computer Engineering and the Center for Statistics and Machine Learning at Princeton University. She is also affiliated with the Department of Computer Science, Omenn-Darling Bioengineering Institute, and Princeton Language+Intelligence. She was a visiting research scientist at Google DeepMind, IAS and Simons Institute on Theoretical Computer Science. Her research focuses on machine learning, reinforcement learning, generative AI, large language models, and AI for science. Mengdi received her PhD in Electrical Engineering and Computer Science from Massachusetts Institute of Technology in 2013, where she was affiliated with the Laboratory for Information and Decision Systems and advised by Dimitri P. Bertsekas. Before that, she got her bachelor degree from the Department of Automation, Tsinghua University. Mengdi received the Young Researcher Prize in Continuous Optimization of the Mathematical Optimization Society in 2016 (awarded once every three years), the Princeton SEAS Innovation Award in 2016, the NSF Career Award in 2017, the Google Faculty Award in 2017,  and the MIT Tech Review 35-Under-35 Innovation Award (China region) in 2018, WAIC YunFan Award 2022, American Automatic Control Council’s Donald Eckman Award 2024 for “extraordinary contributions to the intersection of control, dynamical systems, machine learning and information theory”. She serves as a Program Chair for ICLR 2023 and Senior AC for Neurips, ICML, COLT, associate editor for Harvard Data Science Review, Operations Research. Research supported by NSF, AFOSR, NIH, ONR, Google, Microsoft C3.ai, FinUP, RVAC Medicines, MURI, GenMab."
-  Is_paper: false
-  Time: 13:00-13:40
-- Title: "Invited keynote talk: Empowering biomedical discovery with \"AI scientists\""
-  Presenter: Marinka Zitnik
-  Time: 13:40-14:20
-  Bio: Marinka Zitnik is an Associate Professor at Harvard in the Department of Biomedical Informatics. Dr. Zitnik is Associate Faculty at the Kempner Institue for the Study of Natural and Artificial Intelligence, Broad Institute of MIT and Harvard, and Harvard Data Science. Dr. Zitnik investigates foundations of AI to enhance scientific discovery and facilitate individualized diagnosis and treatment in medicine. Before joining Harvard, she was a postdoctoral scholar in Computer Science at Stanford University. She was also a member of the Chan Zuckerberg Biohub at Stanford. She received her bachelor's degree, double majoring in computer science and mathematics, and then graduated with a Ph.D. in Computer Science from University of Ljubljana just three years later while also researching at Imperial College London, University of Toronto, Baylor College of Medicine, and Stanford University.
-  Is_paper: false
-  Abstract: 
-- Title: "Invited talk: Driving Small Molecule Drug Discovery with Generative Modeling"
-  Time: 14:20-14:35
-  Presenter: Maruan Al-Shedivat
-  Abstract: 
-  Bio: 
-  Is_paper: false
-- Title: "Spotlight 3:<br>&#8227; <i>FORT: Forward-Only Regression Training of Normalizing Flows</i><br>Danyal Rehman, Oscar Davis, Jiarui Lu, Jian Tang, Michael M. Bronstein, Yoshua Bengio, Alexander Tong, Joey Bose<br>&#8227; <i>Amortized Sampling with Transferable Normalizing Flows</i><br>Charlie B. Tan, Majdi Hassan, Leon Klein, Saifuddin Syed, Dominique Beaini, Michael M. Bronstein, Alexander Tong, Kirill Neklyudov<br>&#8227; <i>Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning</i><br>Riccardo De Santi, Marin Vlastelica, Ya-Ping Hsieh, Zebang Shen, Niao He, Andreas Krause<br>&#8227; <i>Calibrating Generative Models</i><br>Henry Smith, Brian L. Trippe<br>&#8227; <i>Bures-Wasserstein Flow Matching for Graph Generation</i><br>Keyue Jiang, Jiahao Cui, Xiaowen Dong, Laura Toni"
-  Time: 14:35-14:55
-- Title: "Poster and break"
-  Time: 14:55-15:30
-- Title: "Invited keynote talk: Multiscale Foundation Models for Predicting, Simulating, and Programming Biology at All Levels"
-  Time: 15:30-16:10
-  Presenter: Eric P. Xing
-  Abstract: "Toward AI-Driven Digital Organism: Multiscale Foundation Models for Predicting, Simulating, and Programming Biology at All Levels: At the core of medicine, pharmacy, public health, longevity, agriculture, and environment, is biology at work. Biology in the physical world is too complex to manipulate and always expensive and risky to tamper with. In this talk, I present a vision of using AI to model and simulate biology and life. I will layout an engineering viable approach to construct an AI-Driven Digital Organism (AIDO), leveraging self-supervised pretraining and adaption of large-scale foundation models, and I introduce some early results including 5 SOTA foundation models for DNA, RNA, Protein, Structure, and Single Cell, respectively, and their abilities to tackle biological problems at the full spectrum of granularities, from sequence, to structure, to network, to phenotype, to diseases, and to drug responses. We envision that AIDO opens up a safe, affordable, and high-throughput alternative platform for predicting, simulating and programming biology at all levels from molecules to cells to individuals, and is poised to trigger a new wave of better-guided wet-lab experimentation and better-informed first-principle reasoning, which can eventually help us better decode and improve life."
-  Bio: "Professor Eric Xing is the President of the Mohamed bin Zayed University of Artificial Intelligence and a Professor of Computer Science at Carnegie Mellon University. His main research interests are the development of machine learning and statistical methodology, and large-scale distributed computational systems and architectures, for solving problems involving automated learning, reasoning, and decision-making in artificial, biological, and social systems. In recent years, he has been focusing on building large language models, world models, agent models, and foundation models for biology. Prof. Xing has served on the editorial boards of several leading journals, including JASA, AOAS, JMLR; was a recipient of several awards, including NSF Career, Sloan, Carnegie Science Award, and best papers in conferences such as ACL, NeurIPS, OSDI, and ISMB; and is a fellow of several societies, including AAAI, ACM, ASA, IEEE, and IMS."
-  Is_paper: false
-- Title: "Panel discussion: Arash Vahdat, David Li-Bland, Eric P. Xing, Marinka Zitnik, Martin Renqiang Min and Mengdi Wang."
-  Time: 16:10-17:40
-- Title: "Award and Closing"
-  Time: 17:40-18:00
+# GenBio 2026 Schedule (Seoul, UTC+9)
+- Time: "8:50 – 9:00"
+  Title: Opening Remarks
+
+- Time: "9:00 – 9:45"
+  Title: Invited Talk
+  Presenter: James Zou (Stanford University)
+
+- Time: "9:45 – 10:15"
+  Title: Invited Talk
+  Presenter: Gianni De Fabritiis (Lila Sciences)
+
+- Time: "10:15 – 10:45"
+  Title: Invited Talk
+  Presenter: Joy Jiao (OpenAI)
+
+- Time: "10:45 – 11:00"
+  Title: Break
+
+- Time: "11:00 – 11:30"
+  Title: Spotlight Talks
+
+- Time: "11:30 – 13:00"
+  Title: Poster Session & Lunch
+
+- Time: "13:00 – 13:30"
+  Title: Invited Talk
+  Presenter: Gabriele Corso (Boltz)
+
+- Time: "13:30 – 14:00"
+  Title: Invited Talk
+  Presenter: Martin Steinegger (Seoul National University)
+
+- Time: "14:00 – 14:30"
+  Title: Invited Talk
+  Presenter: Yunha Hwang (MIT)
+
+- Time: "14:30 – 15:00"
+  Title: Invited Talk
+  Presenter: Yusuf Roohani (Arc Institute)
+
+- Time: "15:00 – 15:30"
+  Title: Break
+
+- Time: "15:30 – 16:00"
+  Title: Spotlight Talks
+
+- Time: "16:00 – 16:50"
+  Title: Panel Discussion
+
+- Time: "16:50 – 17:00"
+  Title: Closing Remarks & Awards
