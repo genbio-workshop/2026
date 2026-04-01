@@ -77,8 +77,8 @@ We are pleased to announce the winners of the Best Paper Awards:
 All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have an OpenReview profile when submitting.
 </p>
 <ul>
-    <li>Submission Deadline: May 8, 2026</li>
-    <li>Author Notification: June 5, 2026</li>
+    <li>Submission Deadline: May 1, 2026</li>
+    <li>Author Notification: May 21, 2026</li>
     <li>Camera Ready Deadline: TBD</li>
     <li>Workshop Date: <b>July 10-11, 2026</b></li>
 </ul>
