@@ -95,6 +95,11 @@ The workshop will be held on July 10-11, 2026 at the
 <strong style="font-weight: 900;">COEX Convention & Exhibition Center</strong>, Seoul, South Korea.
 </p>
 
+<h2 class="blackpar_title" id="submission">Submission Instructions</h2>
+<p>
+All submissions are managed through OpenReview. Please submit your paper via our <a href="https://openreview.net/group?id=ICML.cc/2026/Workshop/GenBio">OpenReview portal</a>. All submissions must be anonymous for double-blind review.
+</p>
+
 <!-- <p>
 Please refer to the Neurips website regarding
 <a href="https://neurips.cc/Register/view-registration">registration</a> and
