@@ -74,7 +74,7 @@ We are pleased to announce the winners of the Best Paper Awards:
 
 <h2 class="blackpar_title" id="deadlines">Important Dates</h2>
 <p>
-All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have an OpenReview profile when submitting.
+All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have an OpenReview profile when submitting. If you do not have one, please create your profile early — profiles without an institutional email can take up to two weeks to be approved.
 </p>
 <ul>
     <li>Submission Deadline: May 1, 2026</li>
