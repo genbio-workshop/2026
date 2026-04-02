@@ -42,6 +42,15 @@
   color: #111;
 }
 
+// Fix link colors in inverted (white bg) section — dark skin uses light blue
+.inverted a {
+  color: #0d6efd;
+}
+
+.inverted a:hover {
+  color: #0056b3;
+}
+
 // Reset Minima's global ul margin so Bootstrap's navbar-nav aligns correctly
 .navbar ul {
   margin: 0;
