@@ -99,6 +99,9 @@ The workshop will be held on July 10-11, 2026 at the
 <p>
 All submissions are managed through OpenReview. Please submit your paper via our <a href="https://openreview.net/group?id=ICML.cc/2026/Workshop/GenBio">OpenReview portal</a>. Submissions can be either short papers (up to 4 pages) or long papers (up to 8 pages), excluding references and appendices, using our <a href="https://www.overleaf.com/read/dnjfbdnypxwn#79923f">LaTeX template</a>. All submissions must be anonymous for double-blind review.
 </p>
+<p>
+Accepted papers will be presented as posters during the poster sessions. Selected works will also be highlighted as Spotlight talks.
+</p>
 
 <!-- <p>
 Please refer to the Neurips website regarding
