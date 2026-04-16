@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#1a3d5c"/>
+      <stop offset="100%" stop-color="#0d2a45"/>
+    </radialGradient>
+    <linearGradient id="divider" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#81d4fa"/>
+      <stop offset="100%" stop-color="#ffd54f"/>
+    </linearGradient>
+    <style>
+      .gen { fill: #ffffff; font-family: 'Source Sans Pro', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-weight: 900; font-size: 100px; letter-spacing: -3px; }
+      .bio { fill: #ffd54f; font-family: 'Source Sans Pro', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-weight: 900; font-size: 100px; letter-spacing: -3px; }
+      .year { fill: #81d4fa; font-family: 'Source Sans Pro', -apple-system, 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 5px; }
+    </style>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="200" fill="url(#bg)"/>
+
+  <!-- Inner ring -->
+  <circle cx="200" cy="200" r="195" fill="none" stroke="#81d4fa" stroke-width="10"/>
+
+  <!-- "GenBio" text, anchored at middle -->
+  <text x="200" y="220" text-anchor="middle">
+    <tspan class="gen">Gen</tspan><tspan class="bio">Bio</tspan>
+  </text>
+
+  <!-- Divider -->
+  <rect x="170" y="240" width="60" height="3" rx="1.5" fill="url(#divider)"/>
+
+  <!-- Year label -->
+  <text x="200" y="275" text-anchor="middle" class="year">ICML 2026</text>
+</svg>
