@@ -9,6 +9,11 @@ description: > # this means to ignore newlines until "show_excerpts:"
 baseurl: "/2026"
 url: "https://genbio-workshop.github.io"
 
+# Social preview card (Open Graph / Twitter)
+image: /twitter_banner.png
+twitter:
+  card: summary_large_image
+
 # Customized links for main menu
 header_menu:
 #  - title:Call for papers
