@@ -103,6 +103,13 @@ The workshop is non-archival. All submissions are managed through OpenReview. Pl
 Accepted papers will be presented as posters during the poster sessions. Selected works will also be highlighted as Spotlight talks.
 </p>
 
+<div style="display: flex; align-items: center; justify-content: center; gap: 24px; margin: 1.5rem 0; flex-wrap: wrap;">
+  <img src="{{ '/images/DGXSparkBundle.png' | relative_url }}" alt="NVIDIA DGX Spark" style="max-width: 220px; width: 100%; height: auto;">
+  <p style="font-size: 1.15rem; max-width: 380px; margin: 0;">
+    The <b style="font-weight: 800;">top two academic submissions</b> will be awarded <b style="font-weight: 800;">one DGX Spark each</b>. We thank NVIDIA for their generous support.
+  </p>
+</div>
+
 <!-- <p>
 Please refer to the Neurips website regarding
 <a href="https://neurips.cc/Register/view-registration">registration</a> and
