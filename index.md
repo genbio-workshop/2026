@@ -97,7 +97,7 @@ The workshop will be held on July 10-11, 2026 at the
 
 <h2 class="blackpar_title" id="submission">Submission Instructions</h2>
 <p>
-The workshop is non-archival. All submissions are managed through OpenReview. Please submit your paper via our <a href="https://openreview.net/group?id=ICML.cc/2026/Workshop/GenBio">OpenReview portal</a> (submissions open April 25, 8:00 AM EDT). Submissions can be either short papers (up to 4 pages) or long papers (up to 9 pages), excluding references and appendices, using our <a href="https://www.overleaf.com/read/dnjfbdnypxwn#79923f">LaTeX template</a>. All submissions must be anonymous for double-blind review. We welcome ongoing work with intermediate results to foster discussion at the workshop.
+The workshop is non-archival. All submissions are managed through OpenReview. Please submit your paper via our <a href="https://openreview.net/group?id=ICML.cc/2026/Workshop/GenBio">OpenReview portal</a> (submissions are now open). Submissions can be either short papers (up to 4 pages) or long papers (up to 9 pages), excluding references and appendices, using our <a href="https://www.overleaf.com/read/dnjfbdnypxwn#79923f">LaTeX template</a>. All submissions must be anonymous for double-blind review. We welcome ongoing work with intermediate results to foster discussion at the workshop.
 </p>
 <p>
 Accepted papers will be presented as posters during the poster sessions. Selected works will also be highlighted as Spotlight talks.
