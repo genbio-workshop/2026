@@ -78,7 +78,7 @@ All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have
 </p>
 <ul>
     <li>Submission Deadline: <s>May 1, 2026</s> <b>May 8, 2026</b></li>
-    <li>Author Notification: <s>May 21, 2026</s> <b>May 22, 2026</b></li>
+    <li>Author Notification: <s>May 21, 2026</s> <b>May 25, 2026</b></li>
     <li>Camera Ready Deadline: June 4, 2026</li>
     <li>Workshop Date: <b>July 10-11, 2026</b></li>
 </ul>
