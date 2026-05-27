@@ -5,6 +5,10 @@
       affiliation: Stanford
       photo: divya.jpg
       url: https://divnori.github.io/
+    - name: Minkai Xu
+      affiliation: Google DeepMind
+      photo: minkai.jpg
+      url: https://minkaixu.com/
     - name: Ramith Hettiarachchi
       affiliation: CMU
       photo: ramith.jpg
@@ -13,6 +17,10 @@
       affiliation: KAIST
       photo: seonghwan.png
       url: https://seonghwanseo.github.io/
+    - name: Tianyu Liu
+      affiliation: Alibaba International
+      photo: tianyu.png
+      url: https://helloworldlty.github.io/
 - num_row: 2
   organizers:
     - name: Aditi S. Krishnapriyan
