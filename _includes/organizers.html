@@ -1,6 +1,6 @@
 {%- assign rows = site.data.organizers -%}
 {%- for row in rows -%}
-    <div class="row_perso organizers_row">
+    <div class="row_perso organizers_row organizers_grid">
         {% for organizer in row.organizers %}
             <div class="card_perso column_perso">
               <a href="{{ organizer.url }}" target="_blank" rel="noopener">

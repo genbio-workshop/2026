@@ -21,6 +21,10 @@
       affiliation: Alibaba International
       photo: tianyu.png
       url: https://helloworldlty.github.io/
+    - name: Yuwei Yang
+      affiliation: NVIDIA
+      photo: yuwei.JPG
+      url: https://www.linkedin.com/in/yuwei-yang-89780179/
 - num_row: 2
   organizers:
     - name: Aditi S. Krishnapriyan
