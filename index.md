@@ -110,6 +110,14 @@ Accepted papers will be presented as posters during the poster sessions. Selecte
   </p>
 </div>
 
+<h2 class="blackpar_title" id="posters"><mark style="background-color: #ffd54f; padding: 4px 12px; border-radius: 4px;">Poster Information</mark></h2>
+<p>
+Workshop posters must be in <strong>portrait format</strong> with dimensions <strong>36 in (H) &times; 24 in (W)</strong> (or <strong>91 cm (H) &times; 61 cm (W)</strong>).
+</p>
+<p class="red-text">
+Note: this differs from the ICML main conference poster size.
+</p>
+
 <!-- <p>
 Please refer to the Neurips website regarding
 <a href="https://neurips.cc/Register/view-registration">registration</a> and
