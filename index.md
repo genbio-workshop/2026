@@ -267,12 +267,19 @@ Accepted papers will be presented as posters during the poster sessions. Selecte
 <h2 class="blackpar_title" id="organizers">Organizers</h2>
 <div>{% include organizers.html %}</div>
 
-<!-- Sponsors - uncomment when ready
+<!-- Sponsors -->
 <h2 class="blackpar_title" id="sponsors">Sponsors</h2>
-<p>
-{% raw %}{% include sponsors.html %}{% endraw %}
-</p>
--->
+<div style="display: flex; align-items: center; justify-content: center; gap: 80px; margin: 1.5rem 0 2rem 0; flex-wrap: wrap;">
+  <a href="https://www.nvidia.com/" target="_blank" rel="noopener">
+    <img src="{{ '/images/sponsors/nvidia-logo-horiz-blk-16x9 1.png' | relative_url }}" alt="NVIDIA" style="max-height: 80px; width: auto;">
+  </a>
+  <a href="https://www.deshawresearch.com/" target="_blank" rel="noopener">
+    <img src="{{ '/images/sponsors/deshawresearchlogo.png' | relative_url }}" alt="D. E. Shaw Research" style="max-height: 42px; width: auto;">
+  </a>
+  <a href="https://aureka.bio/" target="_blank" rel="noopener">
+    <img src="{{ '/images/sponsors/aureka_bio_logo.svg' | relative_url }}" alt="Aureka Bio" width="138" height="30" style="height: 30px; width: auto;">
+  </a>
+</div>
 
 </div>
 <!--ends inverted colors-->
