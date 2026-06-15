@@ -72,20 +72,29 @@
       </tr>
     </thead>
     <tbody>
-      {% assign morning_count = site.data.schedule | where: "Session", "morning" | size %}
-      {% assign afternoon_count = site.data.schedule | where: "Session", "afternoon" | size %}
-      {% assign session_shown = "" %}
-      {% for event in site.data.schedule %}
+      {% assign events = site.data.schedule %}
+      {% for event in events %}
+        {% assign prev_session = "" %}
+        {% if forloop.index0 > 0 %}
+          {% assign prev_idx = forloop.index0 | minus: 1 %}
+          {% assign prev_session = events[prev_idx].Session %}
+        {% endif %}
+        {% assign is_chunk_start = false %}
+        {% assign chunk_size = 0 %}
+        {% if event.Session and event.Session != prev_session %}
+          {% assign is_chunk_start = true %}
+          {% for e in events offset: forloop.index0 %}
+            {% if e.Session == event.Session %}
+              {% assign chunk_size = chunk_size | plus: 1 %}
+            {% else %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
       <tr>
         <td>{{ event.Time }}</td>
-        {% if event.Session == "morning" and session_shown != "morning" %}
-          {% assign session_shown = "morning" %}
-          <td rowspan="{{ morning_count }}" class="session-merged"><span class="session-badge morning">Agents<br>for Bio</span></td>
-          <td>{{ event.Title }}</td>
-          <td>{{ event.Presenter }}</td>
-        {% elsif event.Session == "afternoon" and session_shown != "afternoon" %}
-          {% assign session_shown = "afternoon" %}
-          <td rowspan="{{ afternoon_count }}" class="session-merged"><span class="session-badge afternoon">GenAI<br>for Bio</span></td>
+        {% if is_chunk_start %}
+          <td rowspan="{{ chunk_size }}" class="session-merged"><span class="session-badge {{ event.Session }}">{% if event.Session == 'morning' %}Agents<br>for Bio{% elsif event.Session == 'afternoon' %}GenAI<br>for Bio{% endif %}</span></td>
           <td>{{ event.Title }}</td>
           <td>{{ event.Presenter }}</td>
         {% elsif event.Session %}

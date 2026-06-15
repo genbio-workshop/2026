@@ -11,11 +11,6 @@
       affiliation: OpenAI
       photo: speakers/Joy_Jiao.jpeg
       url: https://www.linkedin.com/in/yunxin-jiao
-    - name: Gianni De Fabritiis
-      title: Prof.
-      affiliation: Lila Sciences
-      photo: speakers/Gianni_De_Fabritiis.jpeg
-      url: https://www.linkedin.com/in/gdefabritiis/
 
 # Afternoon session: generative AI in biology
 - num_row: 2
