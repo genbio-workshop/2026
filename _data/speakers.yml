@@ -11,6 +11,10 @@
       affiliation: OpenAI
       photo: speakers/Joy_Jiao.jpeg
       url: https://www.linkedin.com/in/yunxin-jiao
+    - name: Samuel Stanton
+      affiliation: Anthropic
+      photo: speakers/samuel-stanton.jpeg
+      url: https://samuelstanton.github.io/
 
 # Afternoon session: generative AI in biology
 - num_row: 2
