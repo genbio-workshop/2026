@@ -279,6 +279,9 @@ Accepted papers will be presented as posters during the poster sessions. Selecte
   <a href="https://aureka.bio/" target="_blank" rel="noopener">
     <img src="{{ '/images/sponsors/aureka_bio_logo.svg' | relative_url }}" alt="Aureka Bio" width="138" height="30" style="height: 30px; width: auto;">
   </a>
+  <a href="https://www.genesistherapeutics.ai/" target="_blank" rel="noopener">
+    <img src="{{ '/images/sponsors/Genesis_Logo.jpg' | relative_url }}" alt="Genesis Therapeutics" style="max-height: 150px; width: auto;">
+  </a>
 </div>
 
 </div>

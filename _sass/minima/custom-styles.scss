@@ -22,7 +22,7 @@
 
 // Footer continues the white background from the inverted section
 .site-footer {
-  background-color: #fafafa;
+  background-color: #ffffff;
   border-top-color: #ddd;
 }
 
@@ -37,8 +37,9 @@
   }
 }
 
-// Override inverted section text to true black
+// Override inverted section to pure white bg + true black text
 .inverted {
+  background-color: #ffffff;
   color: #111;
 }
 
