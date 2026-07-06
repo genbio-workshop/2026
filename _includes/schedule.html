@@ -101,7 +101,12 @@
           <td>{{ event.Title }}</td>
           <td>{{ event.Presenter }}</td>
         {% else %}
-          <td colspan="3"><strong>{{ event.Title }}</strong></td>
+          {% if event.Presenter %}
+            <td colspan="2"><strong>{{ event.Title }}</strong></td>
+            <td>{{ event.Presenter }}</td>
+          {% else %}
+            <td colspan="3"><strong>{{ event.Title }}</strong></td>
+          {% endif %}
         {% endif %}
       </tr>
       {% endfor %}
