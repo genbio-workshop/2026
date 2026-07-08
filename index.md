@@ -92,7 +92,7 @@ All deadlines are 11:59 pm UTC -12h ("Anywhere on Earth"). All authors must have
 
 <p class="red-text">
 The workshop will be held on July 10, 2026 (Friday) at the
-<strong style="font-weight: 900;">COEX Convention & Exhibition Center</strong>, Seoul, South Korea.
+<strong style="font-weight: 900;">COEX Convention & Exhibition Center, <mark style="background-color: #ffd54f; padding: 4px 12px; border-radius: 4px;">Hall D2</mark></strong>, Seoul, South Korea.
 </p>
 
 <h2 class="blackpar_title" id="submission">Submission Instructions</h2>
