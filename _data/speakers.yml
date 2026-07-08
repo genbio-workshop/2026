@@ -36,3 +36,16 @@
       affiliation: Arc Institute
       photo: speakers/Yusuf_Roohani.jpeg
       url: https://www.linkedin.com/in/yusuf-roohani-bb195231
+
+# Panel discussion
+- num_row: 3
+  speakers:
+    - name: Anthony Costa
+      affiliation: NVIDIA
+      photo: speakers/anthony-costa.jpg
+    - name: Pranam Chatterjee
+      affiliation: Penn
+      photo: speakers/pranam-chatterjee.jpeg
+    - name: Shuangjia Zheng
+      affiliation: SJTU
+      photo: speakers/shuangjia-zheng.jpg
