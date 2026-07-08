@@ -88,6 +88,17 @@
     font-weight: 600;
     line-height: 1.35;
   }
+
+  .schedule-talk-list {
+    margin: 8px 0 0;
+    padding-left: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .schedule-talk-list li + li {
+    margin-top: 4px;
+  }
 </style>
 
 <div class="schedule-container">
@@ -140,7 +151,16 @@
             <td colspan="2"><strong>{{ event.Title }}</strong></td>
             <td>{{ event.Presenter }}</td>
           {% else %}
-            <td colspan="3"><strong>{{ event.Title }}</strong></td>
+            <td colspan="3">
+              <strong>{{ event.Title }}</strong>
+              {% if event.Talks %}
+                <ul class="schedule-talk-list">
+                  {% for talk in event.Talks %}
+                    <li>{{ talk }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </td>
           {% endif %}
         {% endif %}
       </tr>
