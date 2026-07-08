@@ -2,10 +2,13 @@
   .schedule-container {
     max-width: 860px;
     margin: 0 auto;
+    overflow-x: auto;
   }
 
   .schedule-table {
     width: 100%;
+    min-width: 760px;
+    table-layout: fixed;
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
@@ -23,6 +26,23 @@
   .schedule-table td {
     padding: 10px 12px;
     border: 1px solid #ddd;
+    overflow-wrap: break-word;
+  }
+
+  .schedule-col-time {
+    width: 16%;
+  }
+
+  .schedule-col-session {
+    width: 14%;
+  }
+
+  .schedule-col-event {
+    width: 38%;
+  }
+
+  .schedule-col-presenter {
+    width: 32%;
   }
 
   .schedule-table tbody tr {
@@ -59,10 +79,25 @@
   .session-badge.afternoon {
     color: #333;
   }
+
+  .talk-title {
+    display: block;
+    margin-top: 4px;
+    color: #222;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.35;
+  }
 </style>
 
 <div class="schedule-container">
   <table class="schedule-table">
+    <colgroup>
+      <col class="schedule-col-time">
+      <col class="schedule-col-session">
+      <col class="schedule-col-event">
+      <col class="schedule-col-presenter">
+    </colgroup>
     <thead>
       <tr>
         <th>Time</th>
@@ -95,10 +130,10 @@
         <td>{{ event.Time }}</td>
         {% if is_chunk_start %}
           <td rowspan="{{ chunk_size }}" class="session-merged"><span class="session-badge {{ event.Session }}">{% if event.Session == 'morning' %}Agents<br>for Bio{% elsif event.Session == 'afternoon' %}GenAI<br>for Bio{% endif %}</span></td>
-          <td>{{ event.Title }}</td>
+          <td>{{ event.Title }}{% if event.TalkTitle %}<span class="talk-title">{{ event.TalkTitle }}</span>{% endif %}</td>
           <td>{{ event.Presenter }}</td>
         {% elsif event.Session %}
-          <td>{{ event.Title }}</td>
+          <td>{{ event.Title }}{% if event.TalkTitle %}<span class="talk-title">{{ event.TalkTitle }}</span>{% endif %}</td>
           <td>{{ event.Presenter }}</td>
         {% else %}
           {% if event.Presenter %}
