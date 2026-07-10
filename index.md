@@ -271,7 +271,7 @@ Accepted papers will be presented as posters during the poster sessions. Selecte
 <h2 class="blackpar_title" id="sponsors">Sponsors</h2>
 <div style="display: flex; align-items: center; justify-content: center; gap: 80px; margin: 1.5rem 0 2rem 0; flex-wrap: wrap;">
   <a href="https://www.nvidia.com/" target="_blank" rel="noopener">
-    <img src="{{ '/images/sponsors/nvidia-logo-horiz-blk-16x9 1.png' | relative_url }}" alt="NVIDIA" style="max-height: 80px; width: auto;">
+    <img src="{{ '/images/sponsors/nvidia-logo-horiz-blk-16x9 1.png' | relative_url }}" alt="NVIDIA" style="max-height: 100px; width: auto;">
   </a>
   <a href="https://www.deshawresearch.com/" target="_blank" rel="noopener">
     <img src="{{ '/images/sponsors/deshawresearchlogo.png' | relative_url }}" alt="D. E. Shaw Research" style="max-height: 42px; width: auto;">
@@ -280,7 +280,7 @@ Accepted papers will be presented as posters during the poster sessions. Selecte
     <img src="{{ '/images/sponsors/aureka_bio_logo.svg' | relative_url }}" alt="Aureka Bio" width="138" height="30" style="height: 30px; width: auto;">
   </a>
   <a href="https://www.genesistherapeutics.ai/" target="_blank" rel="noopener">
-    <img src="{{ '/images/sponsors/Genesis_Logo.jpg' | relative_url }}" alt="Genesis Therapeutics" style="max-height: 150px; width: auto;">
+    <img src="{{ '/images/sponsors/Genesis_Logo.jpg' | relative_url }}" alt="Genesis Therapeutics" style="max-height: 180px; width: auto;">
   </a>
 </div>
 
